@@ -1,0 +1,89 @@
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header area css */
+.title{
+    text-align: center;
+    color: tomato
+}
+
+/* bangladesh area css */
+.bangladesh-area{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid orange;
+}
+.bangladesh-info{
+    width: 60%;
+    padding-top: 100px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.map-area{
+    width: 400px;
+}
+.map-area img{
+    width: 100%;
+}
+.details-btn{
+    background-image: linear-gradient(45deg, green, red, green);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* division area css */
+.division-area{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+.division-area h1{
+    padding-bottom: 40px;
+}
+.all-division{
+    display: flex;
+    justify-content: space-between;
+}
+.single-division{
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px gray;
+}
+.single-division .content{
+    padding: 20px;
+}
+.single-division img{
+    width: 100%;
+}
+.division-btn{
+    background-color: rgb(26, 201, 172);
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: .3s;
+}
+.division-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+/* footer area css */
+footer{
+    margin-top: 50px;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+}
